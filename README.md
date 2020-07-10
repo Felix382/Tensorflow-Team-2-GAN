@@ -10,3 +10,5 @@ The CT scans we used as input to our GAN are taken from to open data sets:
 
 We trained the model for about 13500 epochs with some for us pretty good result. An animated GIF thats frame are taken every 50 epochs showes the improvements and the instability beyond 6000 epoch (the earlier ones got lost). 
 
+![CT-DCAGAN-GIF](dcgan.gi)
+
