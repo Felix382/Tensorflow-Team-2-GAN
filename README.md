@@ -2,3 +2,10 @@
 
 The skript is designed to use shared folders from google drive. The CT Scans from this folder have been copied into github in folder "CT_COVID".
 
+The code heavily relies on the Google tutorial on Deep Concolutional GANs as published at https://www.tensorflow.org/tutorials/generative/dcgan. In fact, we only changed some minor but crucial things, in particular we go without the drop-out option, because every single pixel contains information.
+
+The CT scans we used as input to our GAN are taken from to open data sets:
+- https://www.kaggle.com/luisblanche/covidct
+- https://github.com/ieee8023/covid-chestxray-dataset
+
+
